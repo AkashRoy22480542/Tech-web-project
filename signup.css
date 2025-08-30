@@ -1,0 +1,56 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.login{
+  width: 500px;
+  padding: 20px;
+}
+ 
+.loginbox {
+  background:whitesmoke;
+  border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+    text-align: center;
+
+}
+ 
+ 
+.input {
+  text-align: left;
+  margin-bottom: 20px;
+}
+ 
+.input input {
+  width: 100%;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  background: yellow;
+  border-radius: 8px;
+    border: none;
+
+}
+ 
+.btn:hover {
+  background: yellowgreen;
+}
+ 
+.signuptext {
+  font-size: 14px;
+  color: #01141c;
+    font-weight: bold;
+
+}
+ 
+.signuptext a {
+  color: rebeccapurple;
+ text-decoration: none;
+ 
+}
